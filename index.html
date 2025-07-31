@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="cafeteria.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+  <title>P L A N T N E R Y</title>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-light" href="#">P L A N T N E R Y</a>
+    <i class="bi bi-flower3"></i>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+      <ul class="navbar-nav mx-auto text-black">
+        <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#acerca">Acerca de</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menú</a></li>
+        <li class="nav-item"><a class="nav-link" href="#eventos">Eventos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#chefs">Chefs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contáctanos</a></li>
+      </ul>
+      <a href="#" class="btn btn-danger">Reservas</a>
+    </div>
+  </div>
+</nav>
+
+<!-- INICIO -->
+<section id="inicio" class="seccion-inicio py-5">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-start">
+        <h1 class="fw-bold fst-italic">Un espacio que florece contigo</h1>
+        <p> P L A N T N E R Y es más que una cafetería: es un refugio para los sentidos. Aquí, el café de especialidad se mezcla con la calidez de los detalles, creando un ambiente donde todos pueden sentirse en casa.</p>
+        <div class="mb-4">
+          <a href="#" class="btn btn-warning bg-warning-subtle">Haz tu reserva</a>
+          <a href="#" class="btn btn-warning bg-warning-subtle">Visita nuestro Menú</a>
+        </div>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="img/barista-preparing-coffee-coffee-machine.jpg" alt="Imagen redonda" class="imagen-animada">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACERCA -->
+<section id="acerca" class="py-5 bg-success-subtle">
+  <div class="container-fluid">
+    <h2 class="text-center fw-light mb-5">Conozca más de nosotros</h2>
+    <div class="row align-items-center">
+      <div class="col-md-6 ">
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/QUvlmq2qbFw?autoplay=1&mute=1&loop=1&playlist=QUvlmq2qbFw" title="Tour cafetería" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <p><strong>Acerca de P L A N T E R Y:</strong><br> P L A N T N E R Y nace como un espacio pensado para reconectar con lo simple, lo cálido y lo auténtico.</p>
+        <p>Creemos en las pausas conscientes, en los sabores suaves que te envuelven y en los espacios que invitan a quedarte.</p>
+        <a href="https://wa.me/50683541270" target="_blank" class="btn btn-whatsapp mt-3">Reserva una mesa <i class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección: ¿Por qué elegirnos? -->
+<section class="py-5" style="background-color: #FAF9F6;">
+  <div class="container-fluid px-5">
+    <h2 class="text-center mb-4 titulo-seccion fw-light">¿Por qué elegirnos?</h2>
+    <div class="row text-center">
+      
+      <div class="col-md-3 mb-4">
+        <div class="card h-100 bg-success-subtle text-white custom-hover">
+          <div class="card-body">
+            <h5 class="card-title">Por qué elegirnos</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card h-100 custom-hover">
+          <div class="card-body">
+            <i class="bi bi-cup-hot fs-1 mb-3"></i>
+            <h5 class="card-title">Ambiente</h5>
+            <p class="card-text">Espacios cálidos y cómodos.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card h-100 custom-hover">
+          <div class="card-body">
+            <i class="bi bi-cup-hot fs-1 mb-3"></i>
+            <h5 class="card-title">Servicio</h5>
+            <p class="card-text">Atención al cliente excepcional.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card h-100 custom-hover">
+          <div class="card-body">
+            <i class="bi bi-cup-hot fs-1 mb-3"></i>
+            <h5 class="card-title">Calidad</h5>
+            <p class="card-text">Ingredientes frescos y seleccionados.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="menu" class="py-5 bg-menu-fondo">
+  <div class="container-fluid px-5">
+    <h2 class="text-center mb-4 titulo-seccion  fw-light">Nuestro Menú</h2>
+
+    <!-- Tabs -->
+    <ul class="nav nav-tabs justify-content-center mb-4" id="menuTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="desayuno-tab" data-bs-toggle="tab" data-bs-target="#desayuno" type="button" role="tab">Desayuno</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="almuerzo-tab" data-bs-toggle="tab" data-bs-target="#almuerzo" type="button" role="tab">Almuerzo</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="cena-tab" data-bs-toggle="tab" data-bs-target="#cena" type="button" role="tab">Cena</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="postres-tab" data-bs-toggle="tab" data-bs-target="#postres" type="button" role="tab">Postres</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="bebidas-tab" data-bs-toggle="tab" data-bs-target="#bebidas" type="button" role="tab">Bebidas</button>
+      </li>
+    </ul>
+
+    <!-- Contenido de los Tabs -->
+    <div class="tab-content" id="menuTabsContent">
+
+      <!-- Desayuno -->
+      <div class="tab-pane fade show active" id="desayuno" role="tabpanel">
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/tostadas-de-aguacate.jpg" class="img-tab img-fluid rounded-start" alt="Desayuno 1">
+
+              <div class="card-body">
+                <h5 class="card-title">Tostadas con Aguacate</h5>
+                <p class="card-text">Pan artesanal con aguacate, tomate cherry y ajonjolí tostado.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/panquequesmatcha.jpg" class="img-tab img-fluid rounded-start" alt="Desayuno 1">
+
+              <div class="card-body">
+                <h5 class="card-title">Panqueques Matcha</h5>
+                <p class="card-text">Panqueques esponjosos con té matcha, fruta fresca y miel de arroz.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Almuerzo -->
+      <div class="tab-pane fade" id="almuerzo" role="tabpanel">
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/bowlteriyaki.jpg" class="img-tab img-fluid rounded-start" alt="Desayuno 1">
+
+              <div class="card-body">
+                <h5 class="card-title">Bowl Teriyaki</h5>
+                <p class="card-text">Arroz jazmín, vegetales salteados y pollo en salsa teriyaki casera.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/ramenvegano.jpg" class="img-tab img-fluid rounded-start" alt="Desayuno 1">
+              <div class="card-body">
+                <h5 class="card-title">Ramen Vegano</h5>
+                <p class="card-text">Caldo suave con fideos de arroz, tofu y vegetales frescos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cena -->
+      <div class="tab-pane fade" id="cena" role="tabpanel">
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/oniguiri.jpg" class="img-tab img-fluid rounded-start" alt="Desayuno 1">
+              <div class="card-body">
+                <h5 class="card-title">Onigiri Gourmet</h5>
+                <p class="card-text">Triángulos de arroz rellenos con salmón ahumado y alga nori.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/arroz frito.jpg" class="img-tab img-fluid rounded-start" alt="Desayuno 1">
+              <div class="card-body">
+                <h5 class="card-title">Yakimeshi</h5>
+                <p class="card-text">Arroz frito japonés con verduras, huevo y salsa de soya ligera.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Postres -->
+      <div class="tab-pane fade" id="postres" role="tabpanel">
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/mochis.jpg" class="img-tab img-fluid rounded-start" alt="Desayuno 1">
+              <div class="card-body">
+                <h5 class="card-title">Mochis de Fruta</h5>
+                <p class="card-text">Bocados dulces rellenos de fresa, mango o lichi.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/cheescake de matcha.jpg" class="img-tab img-fluid rounded-start" alt="Desayuno 1">
+              <div class="card-body">
+                <h5 class="card-title">Cheesecake de Té Verde</h5>
+                <p class="card-text">Tarta cremosa con base de galleta y matcha.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bebidas -->
+      <div class="tab-pane fade" id="bebidas" role="tabpanel">
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="img/lavender-latte.jpg" class="img-tab img-fluid rounded-start" alt="Desayuno 1">
+              <div class="card-body">
+                <h5 class="card-title">Latte de Lavanda</h5>
+                <p class="card-text">Espresso suave con leche espumada y esencia de lavanda.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card">
+        <img src="img/te de jazmin.jpg" class="img-tab img-fluid rounded-start" alt="Desayuno 1">
+              <div class="card-body">
+                <h5 class="card-title">Té Frío de Jazmín</h5>
+                <p class="card-text">Refrescante infusión de té jazmín con limón y hielo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</section>
+
+<section class="py-5 bg-especialidad">
+  <div class="container-fluid px-5">
+
+    <!-- Primera fila: 2 cards -->
+    <div class="row mb-5">
+      <!-- Card 1 -->
+      <div class="col-lg-6 mb-4">
+        <div class="card card-horizontal h-100">
+          <div class="row g-0 align-items-center">
+            <div class="col-md-5">
+              <img src="img/especialidad del chef 2.jpg" class="img-fluid rounded-start h-100 w-100 object-fit-cover" alt="Platillo 1">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Ramen Imperial</h5>
+                <p class="card-text">Con aguacate, mango y toque secreto del chef
+ </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-6 mb-4">
+        <div class="card card-horizontal h-100">
+          <div class="row g-0 align-items-center">
+            <div class="col-md-5">
+              <img src="img/especialidad de chef1.jpg" class="img-fluid rounded-start h-100 w-100 object-fit-cover" alt="Platillo 2">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Sushi de Salmón</h5>
+                <p class="card-text">Rollos tradicionales con salmón fresco, aguacate y alga nori.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Título centrado -->
+    <h2 class="text-center mb-5 titulo-seccion fw-light">Chef Especial 厨师精选</h2>
+
+    <!-- Dos cards con imagen arriba -->
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 text-center">
+          <img src="img/gyozas.jpg" class="img-tab rounded-top" alt="Especialidad 3">
+          <div class="card-body">
+            <h5 class="card-title">Gyozas Artesanales</h5>
+            <p class="card-text">Dumplings rellenos de cerdo y cebollino, servidos con salsa de soya.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 text-center">
+          <img src="img/tazon poke.jpg" class="img-tab rounded-top" alt="Especialidad 4">
+          <div class="card-body">
+            <h5 class="card-title">Tazón Poke</h5>
+            <p class="card-text">Base de arroz con atún fresco, mango, edamame y sésamo tostado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- TESTIMONIOS -->
+<section id="testimonios" class="seccion-testimonios container-fluid">
+  <div class="container">
+    <h2 class="titulo-seccion text-center fw-light">Qué dicen de Nosotros</h2>
+    <p class="descripcion-seccion text-center">Nuestros clientes comparten sus experiencias en nuestra cafetería.</p>
+    <div class="row justify-content-center">
+      <div class="col-md-4 mb-4">
+        <div class="testimonio-card">
+          <p class="testimonio-texto">“El ambiente es acogedor y la comida deliciosa. ¡Volveré sin duda!”</p>
+          <div class="testimonio-cliente">
+            <img src="img/mujer.jpg" alt="Cliente 1" />
+            <span>Laura M.</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="testimonio-card">
+          <p class="testimonio-texto">“Un rinconcito asiático en la ciudad. El ramen es increíble y el servicio excelente.”</p>
+          <div class="testimonio-cliente">
+            <img src="img/hombre.jpg" alt="Cliente 2" />
+            <span>David R.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--GALERIA-->
+
+<section id="galeria" class="container-fluid py-5 bg-white">
+  <div class="text-center mb-4">
+    <h2 class="titulo-seccion fw-light">Galería · 相册</h2>
+    <p class="descripcion-seccion">Explora nuestra atmósfera y platos más destacados.</p>
+  </div>
+
+  <div class="container">
+    <div class="row g-4 justify-content-center">
+      <!-- Imagen 1 -->
+      <div class="col-6 col-md-6 col-lg-6">
+        <div class="insta-img-container" data-bs-toggle="modal" data-bs-target="#modal1">
+          <img src="img/galeria1.jpg" class="img-fluid rounded" alt="Galería 1">
+          <div class="insta-overlay">
+            <i class="bi bi-eye-fill"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Imagen 2 -->
+      <div class="col-6 col-md-6 col-lg-6">
+        <div class="insta-img-container" data-bs-toggle="modal" data-bs-target="#modal2">
+          <img src="img/galeria2.jpg" class="img-fluid rounded" alt="Galería 2">
+          <div class="insta-overlay">
+            <i class="bi bi-eye-fill"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Imagen 3 -->
+      <div class="col-6 col-md-6 col-lg-6">
+        <div class="insta-img-container" data-bs-toggle="modal" data-bs-target="#modal3">
+          <img src="img/galeria3.jpg" class="img-fluid rounded" alt="Galería 3">
+          <div class="insta-overlay">
+            <i class="bi bi-eye-fill"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Imagen 4 -->
+      <div class="col-6 col-md-6 col-lg-6">
+        <div class="insta-img-container" data-bs-toggle="modal" data-bs-target="#modal4">
+          <img src="img/galeria4.jpg" class="img-fluid rounded" alt="Galería 4">
+          <div class="insta-overlay">
+            <i class="bi bi-eye-fill"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal 1 -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <img src="img/galeria1.jpg" class="img-fluid rounded" alt="Imagen 1">
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <img src="img/galeria2.jpg" class="img-fluid rounded" alt="Imagen 2">
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <img src="img/galeria3.jpg" class="img-fluid rounded" alt="Imagen 3">
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="modal fade" id="modal4" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <img src="img/galeria4.jpg" class="img-fluid rounded" alt="Imagen 4">
+    </div>
+  </div>
+</div>
+
+
+<section id="chefs" class="container-fluid py-5 bg-light">
+<div class="text-center mb-4">
+<h2 class="titulo-seccion fw-light"> Nuestros Chefs · 厨师团队</h2>
+<p class="descripcion-seccion">Conoce al equipo detrás de nuestras delicias.</p>
+</div>
+<div class="row justify-content-center g-4">
+<!-- Chef 1 -->
+<div class="col-md-4 col-sm-6">
+<div class="card text-center h-100 shadow chef-card">
+<img src="img/chef1.jpg" class="card-img-top img-fluid rounded-top" alt="Chef 1">
+<div class="card-body">
+<h5 class="card-title">Chef Haruki</h5>
+<p class="card-text">Especialista en repostería japonesa. Su pasión es crear postres con precisión y arte.</p>
+</div>
+</div>
+</div>
+<!-- Chef 2 -->
+<div class="col-md-4 col-sm-6">
+<div class="card text-center h-100 shadow chef-card">
+<img src="img/chef2.jpg" class="card-img-top img-fluid rounded-top" alt="Chef 2">
+<div class="card-body">
+<h5 class="card-title">Chef Min</h5>
+<p class="card-text">Maestro en té y bebidas asiáticas. Conoce cada aroma y cada preparación a la perfección.</p>
+</div>
+</div>
+</div>
+<!-- Chef 3 -->
+<div class="col-md-4 col-sm-6">
+<div class="card text-center h-100 shadow chef-card">
+<img src="img/chef3.jpg" class="card-img-top img-fluid rounded-top" alt="Chef 3">
+<div class="card-body">
+<h5 class="card-title">Chef Ayaka</h5>
+<p class="card-text">Creativa en cocina fusión. Combina sabores tradicionales con técnicas modernas.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="reserva" class="container-fluid py-5 bg-light">
+<div class="container">
+<div class="row align-items-center">
+<!-- Imagen izquierda -->
+<div class="col-md-6 mb-4 mb-md-0">
+<img src="img/CAFETERIA4.jpg" alt="Imagen de Plantnery Green Café" class="img-fluid rounded shadow">
+</div>
+<!-- Información derecha -->
+<div class="col-md-6">
+<h2 class="titulo-seccion  fst-italic"> Reserva · 预订</h2>
+<p class="descripcion-seccion">Haz tu reserva o visítanos durante nuestro horario de atención.</p>
+<ul class="lista-reserva">
+<li><strong>📅 Horario:</strong> Lunes a Domingo, 8:00 AM – 9:00 PM</li>
+<li><strong>📞 Llámanos:</strong> +506 8888-8888</li>
+<li><strong>📍 Ubicación:</strong> Plantnery Green Café, 119 Liap Khlong Prapa Road
+Ban Mai , Pak Kret
+Nonthaburi 11120
+Thailand</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+ 
+<div class="container my-5">
+  <h2 class="text-center mb-4">Haz tu Reserva</h2>
+  <form class="row g-3" id="formulario-reserva">
+    <div class="col-md-6">
+      <label for="nombre" class="form-label">Nombre completo</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Ej. Kimberly Ruiz" required>
+    </div>
+    <div class="col-md-6">
+      <label for="correo" class="form-label">Correo electrónico</label>
+      <input type="email" class="form-control" id="correo" placeholder="Ej. kim@email.com" required>
+    </div>
+    <div class="col-md-6">
+      <label for="telefono" class="form-label">Teléfono</label>
+      <input type="tel" class="form-control" id="telefono" placeholder="Ej. +506 8888-8888" required>
+    </div>
+    <div class="col-md-6">
+      <label for="personas" class="form-label">Número de personas</label>
+      <input type="number" class="form-control" id="personas" min="1" max="20" placeholder="Ej. 2" required>
+    </div>
+    <div class="col-md-6">
+      <label for="fecha" class="form-label">Fecha</label>
+      <input type="date" class="form-control" id="fecha" required>
+    </div>
+    <div class="col-md-6">
+      <label for="hora" class="form-label">Hora</label>
+      <input type="time" class="form-control" id="hora" required>
+    </div>
+    <div class="col-12">
+      <label for="mensaje" class="form-label">Mensaje adicional (opcional)</label>
+      <textarea class="form-control" id="mensaje" rows="3" placeholder="¿Tienes alguna petición especial?"></textarea>
+    </div>
+    <div class="col-12 text-center">
+      <button type="submit" class="btn btn-warning px-5">Reservar ahora</button>
+    </div>
+  </form>
+</div>
+
+<section id="eventos" class="eventos-section py-5">
+  <div class="container-fluid px-5">
+    <h2 class="text-center mb-4">Crea Momentos Inolvidables</h2>
+
+    <div class="row g-3">
+      <!-- Imagen grande a la izquierda -->
+      <div class="col-md-6">
+       <img src="img/evento1.jpg" class="img-fluid img-grande" alt="Evento principal">
+      </div>
+
+      <!-- Dos imágenes a la derecha (una arriba, otra abajo) -->
+      <div class="col-md-6 d-flex flex-column justify-content-between">
+        <div class="mb-3">
+         <img src="img/evento2.jpg" class="img-fluid img-pequena" alt="Evento 2">
+        </div>
+        <div>
+         <img src="img/evento3.jpg" class="img-fluid img-pequena" alt="Evento 3">
+        </div>
+      </div>
+    </div>
+
+    <!-- Cajita de texto con botón -->
+    <div class="mt-5 p-4 rounded border bg-white text-center shadow-sm">
+      <h5><strong>¿Estás listo para planificar tu evento especial?</strong></h5>
+      <p>En Plantnery Green Café hacemos realidad tus momentos soñados. Ya sea una celebración íntima, un cumpleaños o una reunión especial, nuestro ambiente y atención personalizada crearán recuerdos inolvidables.</p>
+      <a href="#formulario-reserva" class="btn bg-success-subtle">Reservar tu lugar</a>
+    </div>
+  </div>
+</section>
+
+  <section id="contacto" class="py-5 bg-white ">
+<div class="container-fluid text-center mb-4">
+<h2 class="titulo-seccion fw-light">¿Necesitás ayuda? Contáctanos</h2>
+</div>
+<!-- Imagen tipo mapa -->
+<div class="container mb-4 text-center">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3872.8591573147733!2d100.55441607592842!3d13.907365486500934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2832c10315b43%3A0x409d5c6ab69a305d!2sPlantnery%20Green%20Cafe!5e0!3m2!1ses-419!2scr!4v1753824289084!5m2!1ses-419!2scr" width="900" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<!-- Cards de contacto -->
+ <div class=" container-fluid">
+    <div class="row g-4 justify-content-center ">
+<!-- Dirección -->
+<div class="col-md-6 col-lg-3 m-5">
+<div class="card card-contacto h-100 text-center p-3">
+<i class="bi bi-geo-alt-fill icono-contacto mb-2"></i>
+<h6 class="fw-bold">Dirección</h6>
+<p class="mb-0">119 Liap Khlong Prapa Road<br>Ban Mai, Pak Kret, Nonthaburi 11120</p>
+</div>
+</div>
+<!-- Teléfono -->
+<div class="col-md-6 col-lg-3 m-5">
+<div class="card card-contacto h-100 text-center p-3">
+<i class="bi bi-telephone-fill icono-contacto mb-2"></i>
+<h6 class="fw-bold">Llámanos</h6>
+<p class="mb-0">+66 1234 5678</p>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+    <div class="row g-4 justify-content-center">
+<!-- Dirección -->
+<div class="col-md-6 col-lg-3 m-5">
+<div class="card card-contacto h-100 text-center p-3">
+<i class="bi bi-envelope-fill icono-contacto mb-2"></i>
+<h6 class="fw-bold">Correo electrónico</h6>
+<p class="mb-0">info@plantnerycafe.com</p>
+</div>
+</div>
+<!-- Teléfono -->
+<div class="col-md-6 col-lg-3 m-5">
+<div class="card card-contacto h-100 text-center p-3">
+<i class="bi bi-clock-fill icono-contacto mb-2"></i>
+<h6 class="fw-bold">Horario de apertura</h6>
+<p class="mb-0">Lunes a sábado 11:00 - 21:00<br>Domingo cerrado</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="footer bg-dark text-white pt-5 pb-3">
+<div class="container">
+<div class="row">
+<!-- Logo y descripción -->
+<div class="col-md-4 mb-4">
+ 
+<h4 class="fw-bold text-uppercase">Plantnery Café
+   <i class="bi bi-flower1"></i>
+</h4>
+
+<p class="small">Un rincón asiático para los amantes del té, el café y los sabores exquisitos. Vive una experiencia única con cada sorbo.</p>
+</div>
+<!-- Enlaces útiles -->
+<div class="col-md-4 mb-4">
+<h5 class="fw-semibold">Enlaces</h5>
+<ul class="list-unstyled">
+<li><a href="#inicio" class="enlace-footer">Inicio</a></li>
+<li><a href="#menu" class="enlace-footer">Menú</a></li>
+<li><a href="#galeria" class="enlace-footer">Galería</a></li>
+<li><a href="#reserva" class="enlace-footer">Reservar</a></li>
+</ul>
+</div>
+<!-- Redes sociales -->
+<div class="col-md-4 mb-4">
+<h5 class="fw-semibold">Síguenos</h5>
+<div class="d-flex gap-3">
+<a href="#" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
+<a href="#" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+<a href="#" class="text-white fs-4"><i class="bi bi-tiktok"></i></a>
+<a href="#" class="text-white fs-4"><i class="bi bi-envelope"></i></a>
+</div>
+</div>
+</div>
+<hr class="border-top border-secondary">
+<!-- Copyright -->
+<div class="text-center">
+<p class="small mb-0">&copy; 2025 Plantnery Café | Diseñado por Kimberly Ruiz</p>
+</div>
+</div>
+</footer>
+ 
+
+ <a href="#inicio" class="btn-volver-arriba" title="Volver al inicio">
+<i class="bi bi-flower1"></i>
+</a>
+ 
+
+ 
+
+
+<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
